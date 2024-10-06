@@ -1,2 +1,2 @@
 # HashedBit-Assignments
-All the assigments given by Hashedbit Innovations are present in this repo.
+All the Projects given by Hashedbit Innovations are present in this repo.
