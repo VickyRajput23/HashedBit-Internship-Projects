@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.text-2xl{
+  color: white;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* New styles for the IPL points table */
+.table {
+  margin: 2rem auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  background-color: #f9f9f9; /* Light background for the table */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 2px solid #4CAF50; /* Border around the table */
+  border-radius: 8px; /* Rounded corners for the table */
+  overflow: hidden; /* To ensure rounded corners work */
+}
+
+.table th, .table td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ddd; /* Border for table cells */
+}
+
+.table th {
+  background-color: #4CAF50; /* Header background color */
+  color: white; /* Header text color */
+  font-weight: bold; /* Bold text for header */
+}
+
+.table tr:nth-child(even) {
+  background-color: #e7f3fe; /* Light blue for even rows */
+}
+
+.table tr:nth-child(odd) {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+.table tr:hover {
+  background-color: #d1e7dd; /* Light green highlight on hover */
+}
+
+.table td {
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.table td:hover {
+  background-color: #f0f8ff; /* Light blue on hover for table cells */
+}
